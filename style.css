@@ -165,3 +165,11 @@ input {
         border-color: #edfefb;
     }
 }
+
+.error-message {
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+    display: none;
+}
+
