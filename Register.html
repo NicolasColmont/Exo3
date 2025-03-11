@@ -42,13 +42,13 @@
                     <label for="prenom">Prénom</label><br>
                     <input type="text"name="prenom" id="prenom" placeholder="Jean" required><br>
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" placeholder="exemple@form.be" required><br>
+                    <input type="email" name="email" id="email" placeholder="exemple@form.be" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br>
                     <label for="password">Mot de passe</label><br>
-                    <input type="password" name="password" id="password" placeholder="gTh8$75&" required><br>
-                </form>
+                    <input type="password" name="password" id="password" required placeholder="gTh8$75&" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@.!?*&$€]).{8,}" title="Doit contenir au moins 8 charactères dont un chiffre, une majuscule, une minuscule et un charactère spécial (@.!?*&$€)"><br>
             </div>
             <div>
                 <input type="submit" value="CRÉER VOTRE COMPTE" class="button_droite"></input>
+            </form>
             </div>
             <div>
                 <a href="Login.html" class="lien_droit">Déjà un compte ?</a>

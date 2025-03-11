@@ -37,14 +37,15 @@
             <div class="formulaire">
                 <form method="get" action="">
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" placeholder="exemple@form.be" required autofocus><br>
+                    <input type="email" name="email" id="email" placeholder="exemple@form.be" required autofocus pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br>
                     <label for="password">Mot de passe</label><br>
                     <input type="password" name="password" id="password" placeholder="gTh8$75&" required><br>
-                </form>
+
             </div>
             <div>
                 <input type="submit" value="SE CONNECTER" class="button_droite"></input>
             </div>
+                </form>
             <div>
                 <a href="Register.html" class="lien_droit">Pas de compte ?</a>
             </div>
